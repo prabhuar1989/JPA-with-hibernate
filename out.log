@@ -1,0 +1,424 @@
+2017-03-11 21:34:15 INFO  HelloWorld:25 - executeFirstUnitOfWork - start
+2017-03-11 21:34:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-11 21:34:16 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-11 21:34:16 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-11 21:34:16 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-11 21:34:16 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-03-11 21:34:16 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-03-11 21:34:16 INFO  Configuration:757 - HHH000221: Reading mappings from resource: hibernate.hbm.xml
+2017-03-11 21:34:16 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2017-03-11 21:34:16 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-11 21:34:16 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2017-03-11 21:34:16 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-11 21:34:16 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-11 21:34:16 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-11 21:34:16 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-11 21:34:16 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-11 21:34:16 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-11 21:34:18 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2017-03-11 21:34:18 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2017-03-11 21:34:18 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-11 21:34:18 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-11 21:34:18 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-11 21:34:18 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-11 21:34:18 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-11 21:34:18 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-11 21:34:18 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-11 21:34:18 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-11 21:34:18 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-03-11 21:34:18 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-11 21:34:18 INFO  HelloWorld:27 - session - retrieved
+2017-03-11 21:34:18 INFO  HelloWorld:31 - message save with id - 1 and message - Hello World
+2017-03-11 21:34:18 INFO  HelloWorld:43 - number of messages retrieved - 1
+2017-03-11 21:34:18 INFO  HelloWorld:46 - loadedMessage is Hello World
+2017-03-11 21:34:18 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2017-03-26 12:19:38 INFO  HelloWorld:25 - executeFirstUnitOfWork - start
+2017-03-26 12:19:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 12:19:38 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 12:19:38 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 12:19:38 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 12:19:38 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-03-26 12:19:38 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-03-26 12:19:38 INFO  Configuration:757 - HHH000221: Reading mappings from resource: hibernate.hbm.xml
+2017-03-26 12:19:38 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2017-03-26 12:19:38 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 12:19:38 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2017-03-26 12:19:38 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 12:19:38 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 12:19:38 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 12:19:38 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 12:19:38 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 12:19:38 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 12:19:41 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2017-03-26 12:19:41 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2017-03-26 12:19:41 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 12:19:41 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 12:19:41 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 12:19:41 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 12:19:41 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 12:19:41 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 12:19:42 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 12:19:42 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 12:19:42 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-03-26 12:19:42 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 12:19:42 INFO  HelloWorld:27 - session - retrieved
+2017-03-26 12:19:42 INFO  HelloWorld:31 - message save with id - 1 and message - Hello World
+2017-03-26 12:19:42 INFO  HelloWorld:43 - number of messages retrieved - 1
+2017-03-26 12:19:42 INFO  HelloWorld:46 - loadedMessage is Hello World
+2017-03-26 12:19:42 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2017-03-26 19:09:17 INFO  HelloWorld:20 - executeFirstUnitOfWork - start
+2017-03-26 19:09:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 19:09:17 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 19:09:17 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 19:09:17 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 19:09:17 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-03-26 19:09:17 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-03-26 19:09:18 INFO  Configuration:757 - HHH000221: Reading mappings from resource: hibernate.hbm.xml
+2017-03-26 19:09:18 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2017-03-26 19:09:18 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 19:09:18 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2017-03-26 19:09:18 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 19:09:18 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 19:09:18 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 19:09:18 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 19:09:18 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 19:09:18 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 19:09:19 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2017-03-26 19:09:19 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2017-03-26 19:09:19 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 19:09:19 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 19:09:19 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 19:09:19 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 19:09:19 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 19:09:19 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 19:09:19 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 19:09:19 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 19:09:19 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-03-26 19:09:19 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 19:09:20 INFO  HelloWorld:22 - session - retrieved
+2017-03-26 20:04:48 INFO  HelloWorld:21 - executeFirstUnitOfWork - start
+2017-03-26 20:06:57 INFO  HelloWorld:21 - executeFirstUnitOfWork - start
+2017-03-26 20:16:22 INFO  HelloWorld:21 - executeFirstUnitOfWork - start
+2017-03-26 20:16:31 INFO  HelloWorld:21 - executeFirstUnitOfWork - start
+2017-03-26 20:22:36 INFO  HelloWorld:21 - executeFirstUnitOfWork - start
+2017-03-26 20:24:02 INFO  HelloWorld:21 - executeFirstUnitOfWork - start
+2017-03-26 20:24:23 INFO  HelloWorld:21 - executeFirstUnitOfWork - start
+2017-03-26 20:26:01 INFO  HelloWorld:21 - executeFirstUnitOfWork - start
+2017-03-26 20:41:17 INFO  HelloWorld:25 - executeFirstUnitOfWork - start
+2017-03-26 20:41:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 20:41:17 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 20:41:17 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 20:41:17 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 20:41:18 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-03-26 20:41:18 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-03-26 20:41:18 INFO  Configuration:757 - HHH000221: Reading mappings from resource: hibernate.hbm.xml
+2017-03-26 20:41:18 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2017-03-26 20:41:18 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 20:41:18 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2017-03-26 20:41:19 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 20:41:19 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 20:41:19 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 20:41:19 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 20:41:19 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 20:41:19 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 20:41:23 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2017-03-26 20:41:23 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2017-03-26 20:41:23 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 20:41:23 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 20:41:23 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 20:41:23 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 20:41:23 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 20:41:23 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 20:41:23 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 20:41:23 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 20:41:23 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-03-26 20:41:23 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 20:41:24 INFO  HelloWorld:27 - session - retrieved
+2017-03-26 20:41:24 INFO  HelloWorld:31 - message save with id - 1 and message - Hello World
+2017-03-26 20:41:24 INFO  HelloWorld:43 - number of messages retrieved - 1
+2017-03-26 20:41:24 INFO  HelloWorld:46 - loadedMessage is Hello World
+2017-03-26 20:41:24 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2017-03-26 20:42:05 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:42:38 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:42:56 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:48:22 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:52:00 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:52:01 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:52:01 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:52:01 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:52:01 INFO  PersistenceXmlParser:100 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2017-03-26 20:52:01 INFO  PersistenceXmlParser:100 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2017-03-26 20:52:01 INFO  PersistenceXmlParser:100 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2017-03-26 20:52:56 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:52:56 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:52:56 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:52:56 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:52:56 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 20:52:56 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 20:52:56 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 20:52:56 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 20:52:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 20:52:56 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 20:52:56 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 20:52:56 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 20:52:56 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 20:52:56 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 20:52:56 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 20:52:57 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 20:52:57 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:52:57 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 20:52:57 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 20:52:57 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 20:52:57 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 20:52:57 INFO  TableMetadata:66 - HHH000261: Table found: test.user
+2017-03-26 20:52:57 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 20:54:51 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:54:51 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:54:51 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:54:51 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:54:51 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 20:54:51 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 20:54:51 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 20:54:51 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 20:54:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 20:54:51 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 20:54:51 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 20:54:51 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 20:54:51 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 20:54:51 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 20:54:51 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 20:54:52 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 20:54:52 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:52 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 20:54:52 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 20:54:52 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 20:54:52 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 20:54:52 INFO  TableMetadata:66 - HHH000261: Table found: test.user
+2017-03-26 20:54:52 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 20:54:53 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:53 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:53 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:53 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:53 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:53 INFO  PojoInstantiator:69 - HHH000182: No default (no-argument) constructor for class: com.arp.entities.Address (class must be instantiated by Interceptor)
+2017-03-26 20:54:53 INFO  EntityValueTypeTester:23 - em - retrieved
+2017-03-26 20:55:28 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:55:28 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:55:28 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:55:28 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:55:28 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 20:55:28 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 20:55:28 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 20:55:28 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 20:55:28 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 20:55:28 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 20:55:28 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 20:55:28 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 20:55:28 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 20:55:28 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 20:55:28 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 20:55:28 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 20:55:28 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 20:55:29 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 20:55:29 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 20:55:29 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 20:55:29 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 20:55:29 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 20:55:29 INFO  TableMetadata:66 - HHH000261: Table found: test.user
+2017-03-26 20:55:29 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 20:55:29 INFO  EntityValueTypeTester:23 - em - retrieved
+2017-03-26 20:55:29 WARN  SqlExceptionHelper:144 - SQL Error: 1364, SQLState: HY000
+2017-03-26 20:55:29 ERROR SqlExceptionHelper:146 - Field 'USER_ID' doesn't have a default value
+2017-03-26 20:56:15 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 20:56:15 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:56:15 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:56:15 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 20:56:16 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 20:56:16 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 20:56:16 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 20:56:16 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 20:56:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 20:56:16 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 20:56:16 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 20:56:16 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 20:56:16 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 20:56:16 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 20:56:16 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 20:56:16 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 20:56:16 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 20:56:17 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 20:56:17 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 20:56:17 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 20:56:17 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 20:56:17 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 20:56:17 INFO  TableMetadata:66 - HHH000261: Table found: test.user
+2017-03-26 20:56:17 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 20:56:17 INFO  EntityValueTypeTester:23 - em - retrieved
+2017-03-26 20:56:17 WARN  SqlExceptionHelper:144 - SQL Error: 1364, SQLState: HY000
+2017-03-26 20:56:17 ERROR SqlExceptionHelper:146 - Field 'USER_ID' doesn't have a default value
+2017-03-26 21:08:57 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 21:08:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:08:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:08:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:08:57 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 21:08:57 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 21:08:57 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 21:08:57 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 21:08:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 21:08:58 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 21:08:58 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 21:08:58 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 21:08:58 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 21:08:58 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 21:08:58 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 21:08:58 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 21:08:58 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 21:08:58 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 21:08:59 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 21:08:59 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 21:08:59 INFO  TableMetadata:66 - HHH000261: Table found: test.employee
+2017-03-26 21:08:59 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 21:08:59 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 21:08:59 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 21:08:59 INFO  EntityValueTypeTester:23 - em - retrieved
+2017-03-26 21:18:56 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 21:18:56 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:18:56 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:18:56 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:18:56 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 21:18:56 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 21:18:56 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 21:18:56 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 21:18:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 21:18:56 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 21:18:56 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 21:18:56 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 21:18:56 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 21:18:56 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 21:18:56 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 21:18:56 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 21:18:56 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 21:18:57 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 21:18:57 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 21:18:57 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 21:18:57 INFO  TableMetadata:66 - HHH000261: Table found: test.employee
+2017-03-26 21:18:57 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 21:18:57 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 21:18:57 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 21:18:57 INFO  EntityValueTypeTester:23 - em - retrieved
+2017-03-26 21:19:36 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 21:19:36 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:19:36 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:19:36 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:19:36 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 21:19:36 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 21:19:36 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 21:19:36 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 21:19:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 21:19:36 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 21:19:36 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 21:19:36 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 21:19:36 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 21:19:36 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 21:19:36 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 21:19:37 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 21:19:37 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 21:19:37 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 21:19:37 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 21:19:37 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 21:19:37 INFO  TableMetadata:66 - HHH000261: Table found: test.employee
+2017-03-26 21:19:37 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 21:19:37 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 21:19:37 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 21:19:37 INFO  EntityValueTypeTester:23 - em - retrieved
+2017-03-26 21:20:05 INFO  EntityValueTypeTester:21 - executeFirstUnitOfWork - start
+2017-03-26 21:20:05 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:20:05 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:20:05 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:20:05 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 21:20:05 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 21:20:05 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 21:20:05 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 21:20:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 21:20:06 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 21:20:06 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 21:20:06 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 21:20:06 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 21:20:06 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 21:20:06 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 21:20:06 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 21:20:06 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 21:20:06 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 21:20:06 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 21:20:06 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 21:20:06 INFO  TableMetadata:66 - HHH000261: Table found: test.employee
+2017-03-26 21:20:06 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 21:20:06 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 21:20:06 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 21:20:07 INFO  EntityValueTypeTester:23 - em - retrieved
+2017-03-26 21:28:12 INFO  EntityValueTypeTester:39 - executeSecondUnitOfWork - start
+2017-03-26 21:28:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:28:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:28:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-03-26 21:28:12 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: myDatasource
+	...]
+2017-03-26 21:28:12 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-03-26 21:28:12 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-03-26 21:28:12 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-03-26 21:28:12 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-03-26 21:28:12 WARN  ConnectionProviderInitiator:206 - HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-03-26 21:28:12 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-03-26 21:28:12 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-03-26 21:28:12 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-03-26 21:28:12 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-03-26 21:28:12 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-03-26 21:28:13 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-03-26 21:28:13 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-03-26 21:28:13 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-03-26 21:28:13 INFO  SchemaValidator:137 - HHH000229: Running schema validator
+2017-03-26 21:28:13 INFO  SchemaValidator:145 - HHH000102: Fetching database metadata
+2017-03-26 21:28:13 INFO  TableMetadata:66 - HHH000261: Table found: test.employee
+2017-03-26 21:28:13 INFO  TableMetadata:67 - HHH000037: Columns: [home_city, office_name, user_id, home_name, user_name, office_city, home_street, age, office_street]
+2017-03-26 21:28:13 INFO  TableMetadata:66 - HHH000261: Table found: test.message
+2017-03-26 21:28:13 INFO  TableMetadata:67 - HHH000037: Columns: [message_text, next_message_id, message_id]
+2017-03-26 21:28:13 INFO  EntityValueTypeTester:41 - em - retrieved
+2017-03-26 21:28:13 INFO  EntityValueTypeTester:46 - User with id :1 retrieved !!
