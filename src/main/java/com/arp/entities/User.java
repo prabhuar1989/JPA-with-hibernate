@@ -12,12 +12,9 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
-
-import com.sun.istack.internal.Nullable;
 
 @Entity
 @Table(name = "EMPLOYEE")
@@ -63,6 +60,10 @@ public class User implements Serializable{
 	@OneToOne(cascade = CascadeType.ALL, optional = false, fetch = FetchType.EAGER, orphanRemoval = true)
     @PrimaryKeyJoinColumn
 	private Property property;
+	
+	@OneToOne(cascade = CascadeType.ALL, optional = false, fetch = FetchType.EAGER, orphanRemoval = true)
+    @PrimaryKeyJoinColumn
+	private Card card;
 
 	public int getId() {
 		return id;
@@ -119,6 +120,14 @@ public class User implements Serializable{
 
 	public void setProperty(Property property) {
 		this.property = property;
+	}
+
+	public Card getCard() {
+		return card;
+	}
+
+	public void setCard(Card card) {
+		this.card = card;
 	}
 
 }

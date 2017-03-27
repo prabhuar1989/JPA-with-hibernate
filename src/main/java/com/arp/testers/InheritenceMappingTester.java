@@ -8,10 +8,10 @@ import org.apache.log4j.Logger;
 import com.arp.entities.Address;
 import com.arp.entities.Bike;
 import com.arp.entities.Car;
+import com.arp.entities.DebitCard;
+import com.arp.entities.House;
 import com.arp.entities.Land;
-import com.arp.entities.Property;
 import com.arp.entities.User;
-import com.arp.entities.Vehicle;
 import com.arp.utils.JPAUtil;
 
 public class InheritenceMappingTester {
@@ -28,8 +28,10 @@ public class InheritenceMappingTester {
 		InheritenceMappingTester tester = new InheritenceMappingTester();
 		//tester.tablePerConcreteClass();
 		//tester.tablePerHeirarchy();
+		tester.tablePerSubclass();
 	}
 	
+	@SuppressWarnings("unused")
 	private void tablePerConcreteClass() {
 		logger.info("tablePerConcreteClass - start");
 		EntityManager em = JPAUtil.getEntityManagerFactory().createEntityManager();
@@ -56,6 +58,7 @@ public class InheritenceMappingTester {
 		em.close();
 	}
 	
+	@SuppressWarnings("unused")
 	private void tablePerHeirarchy() {
 		/**
 		 * Property attribute is set by the strategy of one table per entire hierarchy..
@@ -81,6 +84,47 @@ public class InheritenceMappingTester {
 		land.setLocation("Walkeshwar");
 		land.setName("Construction Land");
 		user.setProperty(land);
+		
+		logger.info("Saving user object..");
+		em.persist(user);
+		tx.commit();
+		em.close();
+	}
+	
+	
+	private void tablePerSubclass() {
+		/**
+		 * Card attribute is set by the strategy of one table per entire subclass..
+		 * 
+		 */
+		logger.info("tablePerSubclass - start");
+		EntityManager em = JPAUtil.getEntityManagerFactory().createEntityManager();
+		EntityTransaction tx = em.getTransaction();
+		tx.begin();
+		logger.info("Creating user object..");
+		User user = getUser("Laxmi",54);
+		
+		/*vehicle -  table per concrete class */
+		Bike bike = new Bike();
+		bike.setColor("Red");
+		bike.setId(2);
+		bike.setSpeedometer("Analog");
+		user.setVehicle(bike);
+		
+		/*property - table per hierarchy */
+		House house = new House();
+		house.setBuildingName("Damodar krupa");
+		house.setCurrentValue(678523);
+		house.setName("sweet Home");
+		user.setProperty(house);
+		
+		
+		/*property - table per subclass */
+		DebitCard debitCard = new DebitCard();
+		debitCard.setBalance(40000);
+		debitCard.setType("Debit");
+		debitCard.setUserName("Laxmi Prabhu");
+		user.setCard(debitCard);
 		
 		logger.info("Saving user object..");
 		em.persist(user);
